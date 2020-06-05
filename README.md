@@ -7,6 +7,12 @@
 This is a huge must-have VS Code extension for everyone. It prompts a motivation message on startup on your editor, saying:
 
     Holi! ✌🏼, remember you're awesome ✨
+    
+## Install it
+
+Install it from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=juanesarango.holiworld).
+
+Or search `Holi World` in the extensions search bar in the editor.
 
 ## Run with VS Command
 
