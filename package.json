@@ -1,9 +1,10 @@
 {
   "name": "holiworld",
-  "displayName": "holiworld",
+  "displayName": "Holi World",
   "description": "Shows Holi! ✌🏼 on start",
   "publisher": "juanesarango",
-  "version": "0.0.1",
+  "repository": "https://github.com/juanesarango/holiWorld",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -11,14 +12,17 @@
     "Other"
   ],
   "activationEvents": [
+    "*",
     "onCommand:holiworld.sayHoli"
   ],
+  "icon": "icons/two-fingers.png",
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "holiworld.sayHoli",
-        "title": "Say Holi!"
+        "title": "Say Holi!",
+        "category": "Holi World"
       }
     ]
   },
